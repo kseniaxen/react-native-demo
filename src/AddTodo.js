@@ -16,6 +16,7 @@ export const AddTodo = ({onSubmit}) =>{
         <View style={styles.block}>
             <TextInput style={styles.input}
             onChangeText = {setValue}
+            value={value}
             placeholder='Введите названия дела...'
             autoCorrect={false}
             autoCapitalize='none'/>
